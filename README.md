@@ -2,7 +2,7 @@
 
 This is the official implementation of our KSC 2024 paper `Codebook-NeRF: Improving NeRF resolution based on codebook`. Pull requests and issues are welcome.
 
-### [Project Page](https://drawingprocess.github.io/Codebook-NeRF) | [Paper](./docs/static/paper/\[KSC2024\]Codebook-NeRF_코드북기반의NeRF해상도개선.docx.pdf)
+### [Project Page](https://drawingprocess.github.io/Codebook-NeRF) | [Paper](./docs/static/paper/\[KSC2024\]Codebook-NeRF_코드북-기반의-NeRF-해상도-개선.docx.pdf)
 
 Abstract: *In this paper, we propose a new NeRF[1] method that can restore high-resolution details of low-resolution images without reference images. To this end, while maintaining the Super Resolution process of NeRF-SR[2], the codebook structure of VQ-VAE[3] is introduced to learn the patterns of high-resolution images and improve the definition technique. The number of embedding vectors in the codebook was increased to learn more high-resolution information, and it is trained to imitate high-resolution latent characteristics without reference images through Imaging Inference. As a result of the experiment, the proposed model maintained the PSNR performance of NeRF-SR[2], and succeeded in generating clear and detail-rich images.*
 
